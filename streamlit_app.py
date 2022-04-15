@@ -22,7 +22,7 @@ import altair as alt
 
 @st.cache
 def load_data(path):
-    df = pd.read_excel(path,engine='openpyxl')
+    df = pd.read_excel(path, engine='openpyxl')
     return df
 
 
